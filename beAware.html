@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Document</title>
+    <title>Warning Page</title>
+    <style>
+      body {
+        background-color: black;
+        color: red;
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
+
+      .warning-sign {
+        font-size: 120px;
+        display: block;
+        margin-top: 50px;
+      }
+
+      p {
+        font-size: 60px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: 3px 3px 5px red;
+        border: 5px solid red;
+        padding: 20px;
+        display: inline-block;
+        background-color: white;
+        color: black;
+        margin-top: 20px;
+      }
+    </style>
   </head>
   <body>
-    <p style="font-size: 100px;">
-      be careful daaaaa, why do you want to take risk I have warned you already.
+    <span class="warning-sign">⚠️</span>
+    <p>
+      Be careful daaaaa, why do you want to take risk? I have warned you
+      already!
     </p>
   </body>
 </html>
